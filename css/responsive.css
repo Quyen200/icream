@@ -1,0 +1,119 @@
+/* Mobile & tablet */
+@media (max-width: 992px){
+    .hide-on-mobile-tablet{
+        display: none !important;
+    }
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .header-list {
+        margin: 0;
+    }
+    .solider-text {
+      bottom: 80px;
+    }
+    .solider-text__name {
+        font-size: 6rem;
+        line-height: 1.4;
+        font-weight: 600;
+        margin: 20px 0;
+        padding:0 43px;
+    }
+    .solider-text__item {
+        font-size: 2rem;
+    }
+    .solider-text__button {
+        font-size: 1.6rem;
+        width: 130px;
+        height: 50px;
+        margin-top: 25px;
+    }
+    .content-container__img{
+        margin-top: 30px;
+    }
+    .content-body__money-Ice {
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 15px;
+    }
+    .content-body__money-btn{
+        margin-bottom: 40px;
+    }
+    .cart,
+    .carts{
+        height:400px;
+    }
+    .content-introduce__text {
+        font-size: 1.8rem;
+    }
+    .content-introduce__cart {
+        padding-top: 135px;
+    }
+    .cart-link {
+        margin: 15px 5px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .header {
+        height: 80px;
+    }
+    .solider-text{
+        bottom: 30px;
+    }
+    .content-body__text{
+        margin-top: 20px;   
+    }
+    .solider-text__item {
+        font-size:1rem;
+        font-weight: 400;
+        margin:0;
+    }
+    .solider-text__name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0;
+        padding:0 74px;
+    }
+    .solider-text__button {
+        width: 90px; 
+        height: 30px;
+        margin: 20px 0;
+        padding:0;  
+    }
+    .content-introduce__text{
+        font-size: 2rem;
+    }
+    .content-introduce__item{
+        font-size: 1.4rem;
+    }
+    .solider-text__link {
+        font-size: 1rem;
+    }
+    .content-container__img{
+        margin-top: 25px;
+    }
+    .content-body__money-btn{
+        margin-bottom: 30px;
+    }
+    .content-name{
+        margin-top: 50px;
+    }
+    .footer-body,
+    .footer-bodys{
+        text-align: center;
+    }
+    
+}

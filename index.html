@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Header -->
+        <div class="header">
+            <div class="container-fluid hide-on-mobile">
+                <nav class="nav d-flex justify-content-between header-list">
+                    <ul class="nav ms-5 mt-2">
+                        <li class="nav-item ms-3"><a class="nav-link text-light" href="">FAQs</a></li>
+                        <li class="nav-item text-light ms-3 mt-2">|</li>
+                        <li class="nav-item ms-3"><a class="nav-link text-light" href="">Help</a></li>
+                        <li class="nav-item text-light ms-3 mt-2">|</li>
+                        <li class="nav-item ms-3 "><a class="nav-link text-light" href="">Support</a></li>
+                    </ul>
+                    <ul class="nav me-5 mt-2">
+                        <li class="nav-item me-3"><a class="nav-link text-light" href=""><i class="fa fa-facebook-square"></i></a></li>
+                        <li class="nav-item me-3"><a class="nav-link text-light" href=""><i class="fa fa-twitter-square"></i></a></li>
+                        <li class="nav-item me-3"><a class="nav-link text-light" href=""><i class="fa fa-linkedin-square"></i></a></li>
+                        <li class="nav-item me-3"><a class="nav-link text-light" href=""><i class="fa fa-instagram"></i></a></li>
+                        <li class="nav-item me-3"><a class="nav-link text-light" href=""><i class="fa fa-youtube-play"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+            <!-- header-nav-bav -->
+            <div class="position-relative">
+                <div class="navbav-icream container d-flex justify-content-around hide-on-mobile-tablet">
+                    <nav class="nav">
+                        <ul class="nav navbav-icream__list">
+                            <li class="nav-item me-5"><a href="" class="nav-link text-dark navbav-icream__pick">Home</a></li>
+                            <li class="nav-item me-5"><a href="" class="nav-link text-dark navbav-items__link">About</a></li>
+                            <li class="nav-item me-5"><a href="" class="nav-link text-dark navbav-items__link">Product</a></li>
+                        </ul>
+
+                        <span class="navbav-items__content">iCREAM</span>
+
+                        <ul class="nav navbav-icream__list">
+                            <li class="nav-item ms-5"><a href="" class="nav-link text-dark navbav-items__link">Service</a></li>
+                            <li class="nav-item ms-5"><a href="" class="nav-link text-dark navbav-items__link">Gallery</a></li>
+                            <li class="nav-item ms-5"><a href="" class="nav-link text-dark navbav-items__link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <nav class="navbar navbar-expand-lg bg-light d-lg-none z-index">
+                    <div class="container-fluid z-index">
+                        <span class="ms-5 me-5 navbav-items__content">iCREAM</span>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-dark navbav-icream__pick" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-dark navbav-items__link">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-dark navbav-items__link">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-dark navbav-items__link">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-dark navbav-items__link">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link text-dark navbav-items__link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- End Header -->
+
+
+
+
+        <!-- Solider -->
+        <div class="solider position-relative">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel-1.jpg" class="d-block w-100" alt="iCREAM">
+                        <div class="carousel-caption d-md-block solider-text">
+                            <h3 class="solider-text__item">TRADITIONAL & DELICIOUS</h3>
+                            <p class="solider-text__name">Traditional Ice Cream Since 1950</p>
+                            <button type="button" class="solider-text__button text-light">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-2.jpg" class="d-block w-100" alt="iCREAM">
+                        <div class="carousel-caption d-md-block solider-text">
+                            <h3 class="solider-text__item">TRADITIONAL & DELICIOUS</h3>
+                            <p class="solider-text__name">Made From Our Own Organic Milk</p>
+                            <button type="button" class="solider-text__button text-light">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev z-index1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon btn btn-info rounded-circle" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next z-index1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon btn btn-info rounded-circle" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <!-- End Solider -->
+
+
+
+
+
+        <!-- Content -->
+        <div class="content content-mb">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="mb-5 content-mt position-relative content-header col-lg-6">
+                        <h1 class="content-cream__text mb-5">Traditional & Delicious Ice Cream Since 1950</h1>
+                    </div>
+                </div>
+
+                <div class="row gx-5">
+                    <div class="col-lg-4 col-md-12">
+                        <h1 class="container-about">About Us</h1>
+                        <p class="container-about__tins">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</p>
+                        <p class="container-about__cols">Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod
+                        </p>
+                        <button class="container-about__btn text-light mt-5">Learn More</button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <img class="content-container__img rounded-3" src="img/about.jpg" alt="">
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-12">
+                        <h1 class="container-one">Our Features</h1>
+                        <p class="container-one__est">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                        <p class="container-one__check">
+                            <i class="container-one__icon fa fa-check"></i> Eos kasd eos dolor
+                        </p>
+                        <p class="container-one__check">
+                            <i class="container-one__icon fa fa-check"></i> Eos kasd eos dolor
+                        </p>
+                        <p class="container-one__check">
+                            <i class="container-one__icon fa fa-check"></i> Eos kasd eos dolor
+                        </p>
+
+                        <button class="container-one__btn text-light mt-5">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Body money -->
+            <div class="content-mt">
+                <div class="row gx-0">
+                    <div class="col-xl-6 col-md-6 col-12 position-relative">
+                        <img class="mx-auto d-block body-img" src="img/carousel-2.jpg" alt="">
+                        <button class="position-absolute body-btn rounded-circle">
+                           <i class="body-icon fa fa-caret-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="col-xl-6 col-md-6 col-12 content-body__text">
+                        <div class="content-body__money-s">
+                            <h1 class="content-body__money-text">$199</h1>
+                        </div>
+
+                        <div class="content-body__money">
+
+                            <h1 class="content-body__money-Ice">Chocolate Ice Cream</h1>
+                            <p class="content-body__money-flo ms-5 me-5">Lorem justo clita dolor ipsum ut sed eos, ipsum et dolor kasd sit eajusto.Erat justo sed sed diam.Ea et erat ut sed diam sea ipsum</p>
+
+                            <button class="content-body__money-btn">Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Content-introduce -->
+            <div class="container content-mt">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                        <h1 class="container-text">Best Services We Provide For Our Clients</h1>
+                    </div>
+                </div>
+
+                <div class="content-introduce content-mt">
+                    <div class="content-introduce__slick">
+
+                        <div class="content-introduce__owl position-relative">
+
+                            <div class="content-img">
+                                <img class="content-imgs" src="img/service-1.jpg" alt="">
+                            </div>
+
+                            <div class="cart content-mt">
+                                <div class="content-introduce__cart">
+                                    <h3 class="content-introduce__text mt-3">Quality Maintain</h3>
+                                    <p class="content-introduce__item mt-4 ms-5 me-5">Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                    <button class="content-introduce__btn mt-3 text-light">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-introduce__owl position-relative">
+
+                            <div class="content-img">
+                                <img class="content-imgs" src="img/service-2.jpg" alt="iCREAM">
+                            </div>
+
+                            <div class="cart content-mt">
+                                <div class="content-introduce__cart">
+                                    <h3 class="content-introduce__text mt-3">Individual Approach</h3>
+                                    <p class="content-introduce__item mt-4 ms-5 me-5">Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                    <button class="content-introduce__btn mt-3 text-light">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-introduce__owl position-relative">
+
+                            <div class="content-img">
+                                <img class="content-imgs" src="img/service-3.jpg" alt="iCREAM">
+                            </div>
+
+                            <div class="cart content-mt">
+                                <div class="content-introduce__cart">
+                                    <h3 class="content-introduce__text mt-3">Celebration Ice Cream</h3>
+                                    <p class="content-introduce__item mt-4 ms-5 me-5">Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                    <button class="content-introduce__btn mt-3 text-light">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-introduce__owl position-relative">
+
+                            <div class="content-img">
+                                <img class="content-imgs" src="img/service-4.jpg" alt="">
+                            </div>
+
+                            <div class="cart content-mt">
+                                <div class="content-introduce__cart">
+                                    <h3 class="content-introduce__text mt-3">Quality Maintain</h3>
+                                    <p class="content-introduce__item mt-4 ms-5 me-5">Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                    <button class="content-introduce__btn mt-3 text-light">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- Content-cream -->
+            <div class="content-mt">
+                <div class="row justify-content-center">
+                    <div class="mb-5 position-relative content-header col-lg-4">
+                        <h1 class="content-cream__text">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
+                    </div>
+                </div>
+
+
+                <div class="mt-5">
+                    <div class="row g-0">
+                        <div class="col-xl-4 col-md-6 col-12 position-relative overflow-hidden img-icream">
+                            <img class="w-100" src="img/portfolio-1.jpg" alt="">
+                            <a class="nav-link img-link" href="">
+                                <i class="img-icon fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 position-relative overflow-hidden img-icream">
+                            <img class="w-100" src="img/portfolio-2.jpg" alt="">
+                            <a class="nav-link img-link" href="">
+                                <i class="img-icon fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 position-relative overflow-hidden img-icream">
+                            <img class="w-100" src="img/portfolio-3.jpg" alt="">
+                            <a class="nav-link img-link" href="">
+                                <i class="img-icon fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 position-relative overflow-hidden img-icream">
+                            <img class="w-100" src="img/portfolio-4.jpg" alt="">
+                            <a class="nav-link img-link" href="">
+                                <i class="img-icon fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 position-relative overflow-hidden img-icream">
+                            <img class="w-100" src="img/portfolio-5.jpg" alt="">
+                            <a class="nav-link img-link" href="">
+                                <i class="img-icon fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 position-relative overflow-hidden img-icream">
+                            <img class="w-100" src="img/portfolio-6.jpg" alt="">
+                            <a class="nav-link img-link" href="">
+                                <i class="img-icon fa fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Content-money -->
+            <div class="content-mt container">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-6">
+                        <h1 class="container-text">Best Prices We Offer For Ice Cream Lovers</h1>
+                    </div>
+                </div>
+
+
+                <div class="content-money__list content-mt">
+
+                    <div class="content-money__slick">
+                        <div class="mone-cram">
+                            <div class="mone-cram__text rounded position-relative">
+
+                                <div class=" mone-cram__mones">
+                                    <h2 class="text-light pt-4">$99</h2>
+                                </div>
+
+                                <img class="mone-cram__img position-absolute" src="img/product-1.jpg" alt="">
+
+                                <div class="mone-cram__body">
+                                    <h5 class="mone-cram__Ice mb-5">Vanilla Ice Cream</h5>
+                                    <button class="content-introduce__btn mone-cram__btn text-light">Order Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mone-cram">
+                            <div class="mone-cram__text rounded position-relative">
+
+                                <div class=" mone-cram__mones">
+                                    <h2 class="text-light pt-4">$999</h2>
+                                </div>
+
+                                <img class="mone-cram__img position-absolute" src="img/product-2.jpg" alt="">
+
+                                <div class="mone-cram__body">
+                                    <h5 class="mone-cram__Ice mb-5">Vanilla Ice Cream</h5>
+                                    <button class="content-introduce__btn mone-cram__btn text-light">Order Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mone-cram">
+                            <div class="mone-cram__text rounded position-relative">
+
+                                <div class=" mone-cram__mones">
+                                    <h2 class="text-light pt-4">$18</h2>
+                                </div>
+
+                                <img class="mone-cram__img position-absolute" src="img/product-3.jpg" alt="">
+
+                                <div class="mone-cram__body">
+                                    <h5 class="mone-cram__Ice mb-5">Vanilla Ice Cream</h5>
+                                    <button class="content-introduce__btn mone-cram__btn text-light">Order Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mone-cram">
+                            <div class="mone-cram__text rounded position-relative">
+
+                                <div class=" mone-cram__mones">
+                                    <h2 class="text-light pt-4">$1000</h2>
+                                </div>
+
+                                <img class="mone-cram__img position-absolute" src="img/product-4.jpg" alt="">
+
+                                <div class="mone-cram__body">
+                                    <h5 class="mone-cram__Ice mb-5">Vanilla Ice Cream</h5>
+                                    <button class="content-introduce__btn mone-cram__btn text-light">Order Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mone-cram">
+                            <div class="mone-cram__text rounded position-relative">
+
+                                <div class=" mone-cram__mones">
+                                    <h2 class="text-light pt-4">$99</h2>
+                                </div>
+
+                                <img class="mone-cram__img position-absolute" src="img/product-5.jpg" alt="">
+
+                                <div class="mone-cram__body">
+                                    <h5 class="mone-cram__Ice mb-5">Vanilla Ice Cream</h5>
+                                    <button class="content-introduce__btn mone-cram__btn text-light">Order Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Content-name -->
+
+            <div class="content-mt container">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-6">
+                        <h1 class="container-text">Experienced & Most Famous Ice Cream Chefs</h1>
+                    </div>
+                </div>
+
+
+                <div class="container content-mt">
+                    <div class="content-introduce__slick">
+
+                        <div class="content-name">
+                            <div class="position-relative name-img">
+                                <img class="rounded-circle name-img__team position-absolute" src="img/team-1.jpg" alt="">
+                            </div>
+
+                            <div class="carts content-mt">
+                                <div class="content-introduce__cart">
+                                    <h1 class="text-dark cart-name">Full Name</h1>
+                                    <p class="cart-list">DESIGNATION</p>
+
+                                    <div class="d-flex justify-content-center">
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-twitter"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-facebook"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-name">
+                            <div class="position-relative name-img">
+                                <img class="rounded-circle name-img__team position-absolute" src="img/team-2.jpg" alt="">
+                            </div>
+
+                            <div class="carts content-mt">
+                                <div class="content-introduce__cart">
+                                    <h1 class="text-dark cart-name">Full Name</h1>
+                                    <p class="cart-list">DESIGNATION</p>
+
+                                    <div class="d-flex justify-content-center">
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-twitter"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-facebook"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-name">
+                            <div class="position-relative name-img">
+                                <img class="rounded-circle name-img__team position-absolute" src="img/team-3.jpg" alt="">
+                            </div>
+
+                            <div class="carts content-mt">
+                                <div class="content-introduce__cart">
+                                    <h1 class="text-dark cart-name">Full Name</h1>
+                                    <p class="cart-list">DESIGNATION</p>
+
+                                    <div class="d-flex justify-content-center">
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-twitter"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-facebook"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-name">
+                            <div class="position-relative name-img">
+                                <img class="rounded-circle name-img__team position-absolute" src="img/team-4.jpg" alt="">
+                            </div>
+
+                            <div class="carts content-mt">
+                                <div class="content-introduce__cart">
+                                    <h1 class="text-dark cart-name">Full Name</h1>
+                                    <p class="cart-list">DESIGNATION</p>
+
+                                    <div class="d-flex justify-content-center">
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-twitter"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-facebook"></i></a>
+                                        <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- content-footer -->
+            <div class="container content-mt content-pb">
+                <div class="row justify-content-center">
+                    <div class="mb-5 content-mt content-header position-relative col-lg-6">
+                        <h1 class="content-cream__text mb-5">Clients Say About Our Famous Ice Cream</h1>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="content-footer__click">
+                        <div class="content-footer position-relative justify-content-center">
+                            <i class="content-footer__icon fa fa-3x fa-quote-left"></i>
+                            <p class="content-footer__heading col-lg-7">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                            <div class="mt-5">
+                                <img class="rounded-circle" src="img/testimonial-1.jpg" alt="">
+                                <h1 class="cart-name">Client Name</h1>
+                                <span class="opacity-50">Profession</span>
+                            </div>
+                        </div>
+
+                        <div class="content-footer position-relative justify-content-center">
+                            <i class="content-footer__icon fa fa-3x fa-quote-left"></i>
+                            <p class="content-footer__heading col-lg-7">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                            <div class="mt-5">
+                                <img class="rounded-circle" src="img/testimonial-2.jpg" alt="">
+                                <h1 class="cart-name">Client Name</h1>
+                                <span class="opacity-50">Profession</span>
+                            </div>
+                        </div>
+
+                        <div class="content-footer position-relative justify-content-center">
+                            <i class="content-footer__icon fa fa-3x fa-quote-left"></i>
+                            <p class="content-footer__heading col-lg-7">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                            <div class="mt-5">
+                                <img class="rounded-circle" src="img/testimonial-3.jpg" alt="">
+                                <h1 class="cart-name">Client Name</h1>
+                                <span class="opacity-50">Profession</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Content -->
+
+
+        <!-- Footer -->
+        <div class="footer content-mt">
+            <div class="container footer-heading">
+                <h1 class="navbav-items__content">iCREAM</h1>
+
+                <div class="d-flex justify-content-center">
+                    <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-twitter"></i></a>
+                    <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-facebook"></i></a>
+                    <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-linkedin"></i></a>
+                    <a class="nav-link cart-link" href=""><i class="cart-icon fa fa-instagram"></i></a>
+                </div>
+
+                <div class="row gx-5">
+                    <div class="col-xl-6 col-sm-6 col-12 footer-body position-relative">
+                        <h2 class="cart-name mt-5">Get In Touch</h2>
+                        <p class="opacity-50">123 Street, New York, USA</p>
+                        <p class="opacity-50">+012 345 67890</p>
+                    </div>
+                    <div class="col-xl-6 col-sm-6 col-12 footer-bodys">
+                        <h2 class="cart-name mt-5">Opening Hours</h2>
+                        <p class="opacity-50">Mon – Sat, 8AM – 5PM</p>
+                        <p class="opacity-50">Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="container footer-end mt-5">
+                    <p class="m-0">© <a href="" class="nav-link d-inline-block domain">Domain</a>. All Rights Reserved. Designed by <a class="nav-link d-inline-block domain" target="_blank" rel="nofollow noopener" href="//htmlcodex.com ">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+
+    </div>
+
+
+    <!-- bootstrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+    <!-- slick slider -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--  -->
+    <script src="app.js"></script>
+</body>
+
+</html>
