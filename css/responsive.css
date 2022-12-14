@@ -88,6 +88,7 @@
         padding:0 74px;
     }
     .solider-text__button {
+        font-size: 1.4rem;
         width: 90px; 
         height: 30px;
         margin: 20px 0;
@@ -115,5 +116,8 @@
     .footer-bodys{
         text-align: center;
     }
+    .body-img {
+        min-height: 100%;
+}
     
 }
